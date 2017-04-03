@@ -1,0 +1,353 @@
+body{
+	
+}
+#icerik{ 
+width:960px;
+margin:0 auto;}
+#banner{ 
+width:960px;
+	height:60px;
+	background-color:#f0f0f0;}
+#logo{
+	padding-top:7px;
+height:50px;
+padding-left:28px;
+float:left;}
+#baslik{
+	margin-top:5px;
+}
+#giris{
+width:100px;
+float:left;	
+padding-left:200px;	
+padding-top:16px;
+
+}
+.enuygun{
+	list-style-type:none;
+	float:left;
+	color:black;
+	padding-left:260px;
+	padding-top:123px;
+	font-family: Myriad Pro;
+	font-weight: regular;
+	font-size:30px;
+	
+}
+#kelime{
+	float:left;
+	margin:0 auto;
+	padding-left:50px;
+}
+#textbox{
+	width:100px;
+	height:100px;
+	float:left;
+	padding-left:280px;
+	margin-top:10px;
+	
+}
+#select{
+	width:10px;
+	height:50px;
+	float:left;
+	padding-left:130px;
+	margin-top:10px;
+
+}
+#buton{
+	width:49px;
+	height:43px;
+	
+}
+#button{width:50px;
+height:50px;
+padding-left:600px;
+	padding-bottom:200px;}
+.basliklar{	
+list-style-type:none;
+float:left;
+color:#820000;
+padding-left:80px;
+padding-top:18px;
+font-family: Myriad Pro;
+}
+
+#arama{
+	
+		width:960px;
+	height:350px;
+	float:left;
+	background-image:url(../icon/carlg.png);
+	background-repeat:no-repeat;
+	background-position:absolute;
+	background-size:108%;
+
+	
+		
+}
+#yazi{
+	
+padding-left:430px;
+}
+
+
+#kategori-sol{
+	width:316px;
+	height:416px;
+	float:left;
+	background-image:url(../icon/arkaplan.png);
+	border-style: solid;
+	border-width: 2px;
+	border-color:#4e4e4e;}
+#kategori{
+	margin-top:25px;
+	float:left;
+}
+.kategori-bas{
+	
+	padding-left:30px;
+	color:#981010;
+	list-style-type:none;
+	font-family: Myriad Pro;
+	font-size:21px;
+
+}
+.kategori-ic{
+	list-style-type:none;
+	padding-top:20px;
+	padding-left:30px;
+	font-family: Myriad Pro;
+}
+#cizgi{
+	
+	 width:240px;
+	 height:2px;
+	background-color:grey;	
+	float:left;
+	
+	
+}
+#kategori-sag{
+	width:638px;
+	height:416px;
+	float:left;
+	background-image:url(../icon/arkaplan.png);
+	border-style: solid;
+	border-left:0px;
+	border-width: 2px;
+	border-color:#4e4e4e;}
+
+.enpopuler{
+
+	width:600px;
+	float:left;
+	list-style-type:none;
+	padding-left:20px;
+	margin-top:20px;
+	color:#981010;
+	font-family: Myriad Pro;
+	font-size:21px;}
+	.populerilanlar{
+		float:left;
+		width:150px;
+		height:120px;
+	}
+	.car1{
+		float:left;
+		padding-left:15px;
+		width:130px;
+		height:80px;	
+	}
+	.cars{
+	float:left;
+	padding-left:39px;
+	font-family:myriad pro;}
+	.carsalt{
+	float:left;
+	padding-left:49px;
+	font-family:myriad pro;}
+		.populerilanlar2{ 
+	
+	float:left;
+	width:150px;
+	height:120px;}
+	.car2{		
+		float:left;
+		padding-left:15px;
+		width:130px;
+		height:80px;	}
+	.cars2{	
+	float:left;
+	padding-left:39px;
+	font-family:myriad pro;}
+	.carsalt2{
+		
+	float:left;
+	padding-left:49px;
+	font-family:myriad pro;}
+	
+	.populerilanlar3{ 
+	
+	float:left;
+	width:150px;
+	height:90px;}
+	.car3{
+		
+		float:left;
+		padding-left:15px;
+		width:130px;
+		height:80px;
+		
+	}
+	.cars3{
+	
+	float:left;
+	padding-left:39px;
+	font-family:myriad pro;}
+	.carsalt3{
+		
+	float:left;
+	padding-left:49px;
+	font-family:myriad pro;}
+	
+#ortak{
+	
+	width:956px;
+	height:156px;
+	float:left;
+	border-color:#4e4e4e;
+	border-style: solid;
+	border-width:2px;
+	background-image:url(../icon/arkaplan.png);
+	border-top:0px;
+}
+
+.isortagi{
+	width:900px;
+	color:#981010;
+	float:left;
+	font-family:myriad pro;
+	list-style-type:none;
+	padding-left:70px;
+	margin-top:20px;
+	font-size:21px;
+	
+}
+#ortaklar{
+	width:900px;
+	height:65px;
+	float:left;
+	padding-top:10px;
+	padding-left:12px;
+}
+
+.ok{
+	float:left;
+	margin-top:34px;
+	padding-left:10px;}
+.ok2{
+	float:left;
+	margin-top:27px;
+	}	
+
+#cerceve{
+	width:145px;
+	height:70px;
+	float:left;
+	border-right-style:solid;
+	border-right-color:#4e4e4e;
+	
+
+}
+.sahibinden{
+	width:100px;
+	height:60px;
+	float:left;
+	padding-left:25px;
+	padding-top:7px;
+}
+#footer{
+	width:956px;
+	height:240px;
+	float:left;
+	border-color:#4e4e4e;
+	border-style: solid;
+	border-width:2px;
+	border-top-width:0px;
+	background-image:url(../icon/footer.png);
+}
+#kurumsal{
+	margin-top:10px;
+	float:left;
+	
+}
+.kurumsal-bas{
+	
+	padding-left:30px;
+	list-style-type:none;
+	font-family: Myriad Pro;
+	font-size:21px;
+	font-weight: bold;
+}
+.kurumsal-ic{
+	list-style-type:none;
+	padding-top:10px;
+	padding-left:30px;
+	font-family: Myriad Pro;
+	
+}
+.ikon{
+	width:22px;
+	height:20px;
+	padding-left:30px;
+	float:left;
+	
+}
+
+#fb{
+	list-style-image:url(../icon/facebook.png);
+	font-family: Myriad Pro;
+	padding-left:60px;
+	}
+#twitter{
+	list-style-image:url(../icon/twitter.png);
+	font-family: Myriad Pro;
+	padding-left:60px;
+	}
+#linkedin{
+	list-style-image:url(../icon/linkedin.png);
+	font-family: Myriad Pro;
+	padding-left:60px;
+	}
+#insta{
+	list-style-image:url(../icon/instagram.png);
+	font-family: Myriad Pro;
+	padding-left:60px;
+	}
+#youtube{
+	list-style-image:url(../icon/youtube.png);
+	font-family: Myriad Pro;
+	padding-left:60px;
+	}
+#google{
+	list-style-image:url(../icon/googleplus.png);
+	font-family: Myriad Pro;
+	padding-left:60px;
+	}
+
+.aracar{margin-top:70px;
+padding-left:60px;}
+.yazi{
+	float:left;	
+	font-family: Myriad Pro;
+	padding-left:3px;}
+
+
+
+
+
+
+
+
+
