@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AraCar</title>
+<link rel="stylesheet" type="text/css" href="..\css\style.css">
+<script type="text/javascript" src="../js/jquery-1.9.0.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".basliklar").mouseover(function(){
+        $(".basliklar").css("color", "green");
+    });
+    $(".basliklar").mouseout(function(){
+        $(".basliklar").css("color", "#820000");
+    });
+});
+
+$(document).ready(function(){
+    $(".basliklar1").mouseover(function(){
+        $(".basliklar1").css("color", "green");
+    });
+    $(".basliklar1").mouseout(function(){
+        $(".basliklar1").css("color", "#820000");
+    });
+});
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+
+$(document).ready(function(){
+
+$(function() {
+    $("#ara").autocomplete({
+        source: '/ekinwebsite/php/search.php',
+		minLength:1
+		
+    });
+	});
+
+});
+
+
+ </script>  
+ <script>
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.yukarikaydir').fadeIn();
+        } else {
+            $('.yukarikaydir').fadeOut();
+        }
+    });
+
+    $('.yukarikaydir').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+});
+</script>
+ <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+ 
+</head>
+<body background="..\icon\background.png">
+<div id="icerik">
+	<div id="banner">
+	<a href="..\html\index.html">
+	<img id="logo" src="..\icon\logo.png"/></a>
+	<ul id="baslik">
+	<a href="#">
+	<li class="basliklar">2. El Araba İlanları</li></a>
+	<a href="#">
+	<li class="basliklar1">Sıfır Km Araba İlanları</li></a>
+	</ul>
+	<div id="hosgeldin">
+	<h3 id="hos"> Hoşgeldiniz <h3>
+	</div>
+	</div>
+	<div id="arama">
+		
+	<li class="enuygun">Tek tıkla en uygun araba karşında!</li>
+	<div id="textbox">
+	<input type="text" id="ara" value="Marka/Modeli yazınız" onclick="this.value='';">
+	</div>
+	
+	<div id="button">
+	<img id="buton" src="..\icon\arama.png">
+	</div>
+	</div>
+
+		<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Otomobil</a>
+  <a href="#">Ticari Araç</a>
+  <a href="#">Elektrikli Araçlar</a>
+  <a href="#">Motorsiklet</a>
+  <a href="#">Minivan</a>
+  <a href="#">Klasik Araçlar</a>
+</div>
+	
+	
+	<div id="kategori-sag">
+		<span onclick="openNav()" class="acmabuton" ><img class="opennav" src="..\icon\opennav.png"></img></span>
+	<li class="enpopuler">En Popüler İlanlar</li>
+
+		<div class="populerilanlar">
+		<img class="car1" src="..\icon\car1.jpg"/>
+		<label class="cars">CLA 200 AMG</label>
+		<label class="carsalt"> 123.500 TL</label>
+		</div>
+			<div class="populerilanlar2">
+		<img class="car2" src="..\icon\car3.jpg"/>
+		<label class="cars2">CLA 200 AMG</label> 
+		<label class="carsalt2"> 123.500 TL</label>
+		</div>
+			<div class="populerilanlar2">
+		<img class="car2" src="..\icon\car3.jpg"/>
+		<label class="cars2">CLA 200 AMG</label> 
+		<label class="carsalt2"> 123.500 TL</label>
+		</div>
+			<div class="populerilanlar2">
+		<img class="car2" src="..\icon\car3.jpg"/>
+		<label class="cars2">CLA 200 AMG</label> 
+		<label class="carsalt2"> 123.500 TL</label>
+		</div>
+			<div class="populerilanlar2">
+		<img class="car2" src="..\icon\car3.jpg"/>
+		<label class="cars2">CLA 200 AMG</label> 
+		<label class="carsalt2"> 123.500 TL</label>
+		</div>
+			<div class="populerilanlar2">
+		<img class="car2" src="..\icon\car3.jpg"/>
+		<label class="cars2">CLA 200 AMG</label> 
+		<label class="carsalt2"> 123.500 TL</label>
+		</div>
+		<div class="populerilanlar2">
+		<img class="car2" src="..\icon\car3.jpg"/>
+		<label class="cars2">CLA 200 AMG</label> 
+		<label class="carsalt2"> 123.500 TL</label>
+		</div>
+		<div class="populerilanlar2">
+		<img class="car2" src="..\icon\car2.jpg"/>
+		<label class="cars2">CLA 200 AMG</label> 
+		<label class="carsalt2"> 123.500 TL</label>
+		</div>
+			<div class="populerilanlar3">
+		<img class="car3" src="..\icon\car3.jpg"/>
+		<label class="cars3">CLA 200 AMG</label> 
+		<label class="carsalt3"> 123.500 TL</label>
+		</div>
+		<div class="populerilanlar3">
+		<img class="car3" src="..\icon\car2.jpg"/>
+		<label class="cars3">CLA 200 AMG</label> 
+		<label class="carsalt3"> 123.500 TL</label>
+		</div>
+		<div class="populerilanlar3">
+		<img class="car3" src="..\icon\car2.jpg"/>
+		<label class="cars3">CLA 200 AMG</label> 
+		<label class="carsalt3"> 123.500 TL</label>
+		</div>
+		<div class="populerilanlar3">
+		<img class="car3" src="..\icon\car1.jpg"/>
+		<label class="cars3">CLA 200 AMG</label> 
+		<label class="carsalt3"> 123.500 TL</label>
+		</div>
+		</div>
+	
+	<div id="ortak">
+	<li class="isortagi">İş Ortaklarımız</li>
+	
+	
+	
+	<div id="ortaklar">
+	
+	<div class="w3-content w3-section" style="max-width:500px">
+	<a href="www.sahibinden.com"><img class="mySlides" src="../icon/is1.png" "></a>
+	<a href="www.tasit.com"><img class="mySlides" src="../icon/tasit.png" "></a>
+	<a href="www.hurriyetoto.com"><img class="mySlides" src="../icon/hurriyet.png" "></a>
+	<a href="www.ford.com"><img class="mySlides" src="../icon/ford.jpg" "></a>
+	<a href="www.otoshops.com"><img class="mySlides" src="../icon/otoshops.png" "></a>
+	<a href="www.otoeksper.com"><img class="mySlides" src="../icon/otoeksper.png" "></a>
+	</div>
+	
+	<script>
+	var myIndex = 0;
+	carousel();
+	function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+	}
+	</script>
+
+
+	</div>
+	
+	<div id="map">
+	 
+	</div>
+	
+	
+	<div id="footer">
+	<ul id="kurumsal">
+	<li class="kurumsal-bas">Kurumsal</li>
+	<li class="kurumsal-ic">Hakkımızda</li>
+	<li class="kurumsal-ic">Basında AraCar.com</li>
+	<li class="kurumsal-ic">İletişim</li>
+	<li class="kurumsal-ic">Kariyer</li>
+	<li class="kurumsal-ic">Kurumsal Giriş</li>
+	<li class="kurumsal-ic">Reklam Verin</li>
+	</ul>
+	
+	<ul id="kurumsal">
+	<li class="kurumsal-bas">Hizmetlerimiz</li>
+	<li class="kurumsal-ic">Sosyal-CRM</li>
+	<li class="kurumsal-ic">Güvenli E-Ticaret</li>
+	<li class="kurumsal-ic">Mobil</li>
+	<li class="kurumsal-ic">Emlak</li>
+	<li class="kurumsal-ic">Araba Kiralama</li>
+	<li class="kurumsal-ic">Otomobil Haberleri</li>
+	</ul>
+	
+	<ul id="kurumsal">
+	<li class="kurumsal-bas">Bizi Takip Edin</li>
+	<a href="www.facebook.com"><ul id="fb"> <li>Facebook</li> </ul></a>
+	<a href="www.twitter.com"><ul id="twitter"> <li>Twitter</li> </ul></a>
+	<a href="www.linkedin.com"><ul id="linkedin"> <li>Linkedin</li> </ul></a>
+	<a href="www.google.com.tr"><ul id="google"> <li>Google+</li> </ul></a>
+	<a href="www.instagram.com"><ul id="insta"> <li>Instagram</li> </ul></a>
+	<a href="www.youtube.com"><ul id="youtube"> <li>Youtube</li> </ul></a>
+
+	</ul>
+	<img class="aracar" src="..\icon\aracar.png">
+	</div>
+	
+</div>
+<div class="wrapper"></div>
+<a href="#" class="yukarikaydir">Yukarı kaydır</a>
+</body>
+<script>
+  var json;
+  $(document).ready(function(){
+
+        $.post("/ekinwebsite/php/marker/map.php",
+        function(data){
+		json=JSON.parse(data);    
+    });
+	
+	$(function() {
+    $("#pac-input").autocomplete({
+        source: '/ekinwebsite/php/marker/map.php',
+		minLength:1
+		
+    });
+	});
+ });
+  
+ function initMap() {
+
+        var latlng = new google.maps.LatLng(38.385947, 27.181670);
+        var myOptions = {
+            zoom: 10,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("map"),myOptions);
+	
+		
+        for( var i in json ){
+
+            lat = json[i].Enlem;
+            lng = json[i].Boylam;
+           
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(lat,lng),
+                map: map
+            }); 
+           
+        }
+		
+		
+    }  
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6-0YJZVn2o3VbB6S5HdrZqA0G_fuXVcY&callback=initMap">
+    </script>
+</div>
+</html>
+
+
+
+
+
+
+
+
